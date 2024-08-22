@@ -1,0 +1,184 @@
+.main_picture {
+    position: relative;
+    width: 45%;
+    height: 12.5%;
+    left: 27.5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.pillar_one {
+    position: absolute;
+    width: 20%;
+    height: 100%;
+}
+
+.pillar_two {
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    left: 80%;
+
+}
+
+body {
+    height: 100%;
+    background-color: black;
+}
+
+.container {
+    position: relative;
+    width: 60%;
+    height: auto;
+    min-height: 100%;
+    left: 20%;
+    background-color: aliceblue;
+}
+
+.content {
+    position: relative;
+    background-color: white;
+    height: 50%;
+    top: 0;
+    margin-top: 0px;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    font-size: 25px;
+}
+
+.content2 {
+    position: relative;
+    background-color: blueviolet;
+    height: 50%;
+    top: 25%;
+    display: none;
+}
+
+.mainButton {
+    position: relative;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 20%;
+    height: 40px;
+    top: 10%;
+    cursor: pointer;
+
+    box-shadow: 5px 5px 10px grey;
+
+    font-size: 15px;
+}
+
+#Button1 {
+    left: 10%;
+}
+
+#Button2 {
+    left: 20%;
+}
+
+#Button3 {
+    left: 30%;
+}
+
+.ButtonContainer {
+    position: relative;
+    background-color: white;
+    width: auto;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: brown;
+
+}
+
+label {
+    width: auto;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+
+.dropDownInput {
+    width: 25%;
+    margin-right: 0;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+.DateInput {
+    font-size: 20px;
+    width: 15%;
+}
+
+#enterButton {
+    margin-left: 40%;
+    top: 5%;
+    background-color: blueviolet;
+}
+
+html {
+    height: 100%;
+}
+
+
+.dropDown {
+    position: relative;
+}
+
+.dropDown button {
+    background-color: rgb(200, 200, 200);
+    display: block;
+    padding: 10px 10px;
+    border-radius: 0px;
+    border: none;
+    min-width: 100px;
+    color: aliceblue;
+}
+
+.dropDown input {
+    min-width: 100px;
+    padding: 5px 5px;
+    font-size: 15px;
+}
+
+.content button {
+    background-color: rgb(110, 107, 107);
+    min-width: 200px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.dropDown .content {
+    display: none;
+    position: absolute;
+    top: calc(100% + .05rem);
+}
+
+.dropDown:hover .content {
+    display: block;
+}
+
+.content button:hover {
+    background-color: blue;
+}
+
+.dropDown {
+    display: inline-block;
+}

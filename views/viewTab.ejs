@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <img src="pillar.png" alt="Girl in a jacket" class="pillar_one">
+    <img src="pillar.png" alt="Girl in a jacket" class="pillar_two">
+
+    <div class="container">
+
+        <img src="logoPNG.png" alt="Girl in a jacket" class="main_picture">
+
+        <div class="ButtonContainer">
+            <button type="button" id="Button1" class="mainButton"> View Tab</button>
+            <button type="button" id="Button2" class="mainButton"> Make Event</button>
+            <button type="button" id="Button3" class="mainButton"> Enter a Student</button>
+        </div>
+
+        <div class="content">
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Team</th>
+                    <th>Spirit Points</th>
+                </tr>
+                <% for(var i=0; i < people.length; i++) {%>
+
+
+                    <tr>
+                        <td>
+                            <%= people[i].Name%>
+                        </td>
+                        <td>
+                            <%= people[i].Team%>
+                        </td>
+                        <td>
+                            <%= people[i].Points%>
+                        </td>
+                    </tr>
+                    <% } %>
+            </table>
+        </div>
+        <div class="content2">
+
+
+        </div>
+    </div>
+    </div>
+
+    <script>
+
+    </script>
+    <link rel="stylesheet" href="style.css">
+</body>
+<script src="button.js"></script>
+
+</html>
