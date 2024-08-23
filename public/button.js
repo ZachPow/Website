@@ -9,13 +9,13 @@ const button_two = document.getElementById("Button2");
 const button_three = document.getElementById("Button3");
 
 button_one.addEventListener("click", () => {
-    location.href = "http://localhost:3000/";
+    location.href = "https://website-9pt5.onrender.com/";
 })
 
 button_two.addEventListener("click", () => {
-    location.href = "http://localhost:3000/make_event";
+    location.href = "https://website-9pt5.onrender.com/make_event";
 })
 
 button_three.addEventListener("click", () => {
-    location.href = "http://localhost:3000/event_entry";
+    location.href = "https://website-9pt5.onrender.com/event_entry";
 })

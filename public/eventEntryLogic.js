@@ -47,7 +47,7 @@ enterButton.addEventListener("click", () => {
     for(const child of eventDropDown.children){
         console.log(child.innerHTML);
     }
-
+    alert("sent");
     sendInfo({ name: studentInput.value, event: eventInput.value, type: "Student" });
 })
 
